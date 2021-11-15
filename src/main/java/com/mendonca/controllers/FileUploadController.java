@@ -26,7 +26,7 @@ import com.mendonca.service.FileUploadService;
 public class FileUploadController {
 
 	@Autowired
-	private FileUploadService fileUploadService;
+	private FileUploadService fileUploadService; 
 	
 	
 	@PostMapping("/upload/local")
